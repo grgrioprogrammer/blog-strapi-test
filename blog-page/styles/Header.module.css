@@ -1,0 +1,39 @@
+.header {
+    /* background: rgb(255,122,133); */
+    /* background:  url("../public/bg-hero.svg"); */
+    background-color: #fd7200cc;
+    background-position: 31% 50%;
+    background-size: 220%;
+    border-radius: 0 0 0 100px;
+    height: 445px;
+
+}
+
+.menuLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2%;
+    margin: 0% 2%;
+}
+.menuLogo nav {
+    display: flex;
+    gap: 38%;
+    justify-content: flex-end;
+    color: #fff;
+}
+.menuLogo nav a {
+    font-weight: 600;
+}
+.bigTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bigTitle h2 {
+    font-size: 86px;
+    font-weight: 800;
+    color: #fff;
+
+}

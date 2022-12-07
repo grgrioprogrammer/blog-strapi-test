@@ -1,17 +1,18 @@
 import Head from "next/head";
-import head from "next/head"
-import Header from './Header'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 // aqui voy a crear el header y el footer
 
-const Layout = ({ children }) => {
+const Layout = ({ children, namePage, titleHero }) => {
     return (
         <div>
             <Head>
-                <title>Blog - Home</title>
+                <title>Blog - {namePage}</title>
             </Head>
-            <Header />
+            <Header titleHero={titleHero}/>
             { children }
+            <Footer/>
         </div>
     )
 }
